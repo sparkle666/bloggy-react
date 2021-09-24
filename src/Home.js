@@ -1,5 +1,9 @@
-const handleClick = () => {
-    console.log('Hello ninjas')
+const handleClick = (e) => {
+    console.log('Hello ninjas', e.clientX)
+}
+
+const handleClickAgain = (name) => {
+    console.log("Hello, ", name)
 }
 
 const Home = () => {
@@ -7,6 +11,7 @@ const Home = () => {
         <div className="home">
             <h1>Homepage</h1>
             <button onClick = {handleClick}>Click me</button> 
+            <button onClick={() => handleClickAgain('Sparkles')}>Click me again</button>
         </div>
     )
 }
