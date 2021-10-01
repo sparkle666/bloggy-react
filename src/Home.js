@@ -8,10 +8,13 @@ const Home = () => {
         {title: "Some really cool blog", body: "Lorem ipsum somento...", author: "Elija", id: 3},
     ])
 
+    const handleDelete = (id) => {
+        const newblogs = blogs.filter(blog => (blog.id !== id))
+        setBlogs(newblogs) // Set the new state as the array of filtered blogs.
+    }
     return(
         <div className="home">
-           <BlogList blogs={blogs} title="All Blogs" />
-           <BlogList blogs={blogs.filter((blog) => blog.author === "Sparkles")} title="Sparkles Blogs" />
+           <BlogList blogs={blogs} title="All Blogs" handleDelete = {handleDelete} />
         </div>
     )
 }
