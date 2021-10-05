@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom'
+
 const Navbar = () => { // A stateless functional component
     return ( 
         <nav className="navbar">
             <h1>The sparkles blog</h1>
             <div className="link-list">
-                <a href="/">Home</a>
-                <a href="/create">Create blog</a>
+                <Link to="/">Home</Link>
+                <Link to="/create">Create blog</Link>
             </div>
         </nav>
     )
