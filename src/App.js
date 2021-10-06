@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Create from './Create';
 import Details from './BlogDetails';
 import Mylists from './Mylist';
+import NotFound from './NotFound';
 
 function App() {
 
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/mylist/:id">
               <Mylists />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
