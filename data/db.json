@@ -1,12 +1,6 @@
 {
   "blogs": [
     {
-      "title": "So you have absconded.",
-      "body": "You watched a video of mine where I explained the no nonsense way to scale your online business to the roof using everyday methods. I hope you saw a lot of progress while using the method I detailed for you. Too bad you never came back fro more because I just discovered some monster platform thatwill help your skyrocket your productivity as an online entrepreneur.",
-      "author": "sparkle",
-      "id": 1
-    },
-    {
       "title": "The internals of Life...",
       "body": "You watched a video of mine where I explained the no nonsense way to scale your online business to the roof using everyday methods. I hope you saw a lot of progress while using the method I detailed for you. Too bad you never came back fro more because I just discovered some monster platform thatwill help your skyrocket your productivity as an online entrepreneur.",
       "author": "mario",
@@ -19,10 +13,10 @@
       "id": 3
     },
     {
-      "title": "A new blog",
-      "body": "Some lorem ipsum",
+      "title": "Added a couple of stuff",
+      "body": "Yo lorem ipsum here",
       "author": "sparkles",
-      "id": 9
+      "id": 4
     }
   ]
 }

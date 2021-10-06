@@ -9,6 +9,13 @@
 a {
   text-decoration: none;
 }
+.blog-details button {
+  border: none;
+  color: white;
+  background-color: #f1356d;
+  padding: 10px;
+  cursor: pointer
+}
 .navbar {
   padding: 20px;
   display: flex;
