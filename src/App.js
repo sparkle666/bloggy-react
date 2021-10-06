@@ -3,6 +3,7 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Create from './Create';
 import Details from './BlogDetails';
+import Mylists from './Mylist';
 
 function App() {
 
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route path="/blogs/:id">
               <Details />
+            </Route>
+            <Route path="/mylist/:id">
+              <Mylists />
             </Route>
           </Switch>
         </div>

@@ -7,6 +7,7 @@ const Navbar = () => { // A stateless functional component
             <div className="link-list">
                 <Link to="/">Home</Link>
                 <Link to="/create">Create blog</Link>
+                <Link to="/mylist"> My List </Link>
             </div>
         </nav>
     )
