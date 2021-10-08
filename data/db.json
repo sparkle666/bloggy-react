@@ -17,6 +17,12 @@
       "body": "Yo lorem ipsum here",
       "author": "sparkles",
       "id": 4
+    },
+    {
+      "title": "A new blog",
+      "body": "Some title",
+      "author": "Luigi",
+      "id": 5
     }
   ]
 }
